@@ -1,0 +1,16 @@
+[
+  {
+    "name": "PHPSESSID",
+    "value": "g2rf2nhrr5sq7uma8eb6ssjfm6",
+    "domain": "www.iitm.ac.in",
+    "path": "/",
+    "expires": -1,
+    "size": 35,
+    "httpOnly": false,
+    "secure": false,
+    "session": true,
+    "sameParty": false,
+    "sourceScheme": "Secure",
+    "sourcePort": 443
+  }
+]
