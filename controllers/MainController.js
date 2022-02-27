@@ -7,7 +7,7 @@ class MainController {
         let rollno = req.body.rollno;
         let pwd = req.body.pwd;
         console.log(rollno, pwd);
-        const browser = await puppeteer.launch({ headless: true },{ args: ['--no-sandbox'] });
+        const browser = await puppeteer.launch({ headless: false },{ args: ['--no-sandbox'] });
         const page = await browser.newPage();
         await page.goto("https://www.iitm.ac.in/viewgrades/login.php", { waitUntil: 'load', timeout: 0 });
         // await page.waitForSelector('input[name="rollno"]');
